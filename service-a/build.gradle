@@ -1,0 +1,4 @@
+dependencies {
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-eureka-client', version: '1.4.0.RELEASE'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '1.4.4.RELEASE'
+}

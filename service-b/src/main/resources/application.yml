@@ -1,0 +1,25 @@
+spring:
+  profiles: peer1
+  application:
+    name: com-github-since1986-learn-cloud-service-b
+
+server:
+  port: 8020
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/
+---
+spring:
+  profiles: peer2
+  application:
+    name: com-github-since1986-learn-cloud-service-b
+
+server:
+  port: 8021
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/

@@ -1,0 +1,5 @@
+rootProject.name = 'learn-service-call'
+include 'eureka-server'
+include 'service-a'
+include 'service-b'
+
